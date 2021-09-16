@@ -91,7 +91,7 @@ public class FloydAlgorithm {
         
         
 //        System.out.println("Enter of the number of node");                    //Bu kodlar, kullanıcı isterse verilen ödev haricinde
-//        Scanner data = new Scanner(System.in);                                //farklı uzunluktaki matrisi girmek için            (87.satırdan 105'e kadar)
+//        Scanner data = new Scanner(System.in);                                //farklı uzunluktaki matrisi girmek için            (93.satırdan 111'e kadar)
 //        numberofNode = data.nextInt();                                        //yeni matrisin uzunluğunu ve içeriğini girmesini sağlar
 //        
 //        s0 = new int [numberofNode][numberofNode];
@@ -192,7 +192,7 @@ public class FloydAlgorithm {
             d0[8][6] = 9999;
             d0[8][7] = 1;
             d0[8][8] = 0; 
-        new FloydAlgorithm(d0, s0, numberofNode);                               //Nesne yönelimli programlama yapıldığı için nesnemizi d0 s0 ve node sayısı 
+        new FloydAlgorithm(d0, s0, numberofNode);                               //Nesnemizi d0 s0 ve node sayısı 
                                                                                 //parametreleri ile oluşturulur.
     }                                                                           
 }
